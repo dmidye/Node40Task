@@ -13,9 +13,10 @@ Clone this repo, cd into the directory, and run:
 ```
 java -jar example/hello-world-0.0.1-SNAPSHOT.jar server hello-world.yml
 ```
-You should then be able to open a command prompt run:
+You should then be able to open a command prompt and run:
 ```
 curl http://localhost:8080/hello-world
+curl http://localhost:8080/hello-world/format/reversed
 ```
 
 
