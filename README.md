@@ -1,1 +1,22 @@
-# Node40Task
+# Node40 Task
+
+## Run With Docker
+
+```
+docker pull dpmidyett/node40helloworld:v1
+docker run -d -p 8080:8080 dpmidyett/node40helloworld:v1
+```
+
+
+## Run The Jar
+Clone this repo, cd into the directory, and run:
+```
+java -jar example/hello-world-0.0.1-SNAPSHOT.jar server hello-world.yml
+```
+You should then be able to open a command prompt run:
+```
+curl http://localhost:8080/hello-world
+```
+
+
+I have included my tests in src/tests/groovy.
